@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Header from "../components/header"
 
-export default function Home() {
+export default function About() {
   return (
     <div style={{ color: `#000000` }}>
       <Link
@@ -35,8 +35,8 @@ export default function Home() {
       >
         About
       </Link>
-      <Header headerText="" />
-      <h1>Home</h1>
+      <Header headerText="Information Desk - " />
+      <h1>About</h1>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
     </div>
   )
